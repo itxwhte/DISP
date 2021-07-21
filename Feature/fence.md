@@ -12,6 +12,7 @@
 
 # BufferQueue
 ![avatar][img1]
+![](_v_images/10010.png)
 - Surface是Andorid窗口的描述，是ANativeWindow的实现；同样GraphicBuffer是Android中图形Buffer的描述，是ANativeWindowBuffer的实现。而一个窗口，可以有几个Buffer
 - dequeuebuffer：Producer从BufferQueue中获取Graphic buffer，并填充其数据
     - Producer主要指APP通过C+G去绘图
